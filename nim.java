@@ -67,15 +67,15 @@ public class RideSharingApp {
 
         // Available drivers and vehicles
         String[][] bikeDrivers = {
-            {"Ramesh", "MH12AB1234"},
-            {"Anil", "MH13XY5678"},
-            {"Vikram", "MH14CD9876"}
+            {"arun", "JK12AB1234"},
+            {"Anil", "PB13XY5678"},
+            {"ganesh", "MH14CD9876"}
         };
 
         String[][] carDrivers = {
-            {"Suresh", "MH15EF4567"},
-            {"Rajesh", "MH16GH1234"},
-            {"Amit", "MH17IJ7890"}
+            {"tridev", "DL15EF4567"},
+            {"sagar", "GJ6GH1234"},
+            {"tushar", "AS17IJ7890"}
         };
 
         try {
@@ -103,7 +103,7 @@ public class RideSharingApp {
             }
 
             // Output
-            System.out.println("Driver: " + ride.getDriverName());
+            System.out.println("Driver : " + ride.getDriverName());
             System.out.println("Vehicle No: " + ride.getVehicleNumber());
             System.out.println("Distance: " + ride.getDistance() + " km");
             System.out.println("Fare: ₹" + ride.calculateFare());
